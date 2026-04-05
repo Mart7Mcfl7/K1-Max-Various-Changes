@@ -1,4 +1,4 @@
-# K1-Max-Creality-Helper-Script-Various-Changes
+# K1-Max-Various-Changes
 
 Custom modifications and backups for the Creality K1 Max.
 
