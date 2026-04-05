@@ -1,16 +1,39 @@
-# K1-Max-Various-Changes
+K1 Max Custom Enhancements
+This repository contains custom modifications, optimized binaries, and configuration backups specifically tailored for the Creality K1 Max.
 
-Custom modifications and backups for the Creality K1 Max.
+While these modules are designed to be "drop-in" for printers using the Creality Helper Script, some components (specifically Limited CoreXY and MPC) require manual adjustments to your printer.cfg.
 
-Most modules should be drop in, limited core xy and mpc will need changes to printer.cfg
-Depending on printer setup, repinning fans can be tricky, please reffer to the provided .cfg for examples.
-Always make a backup of any files in case you need to restore to a working config.
+[!CAUTION]
+Safety First: Always backup your existing configuration files before applying changes. Modification of fan pinouts or kinematics can lead to hardware damage if not properly verified.
 
-## Current Modules:
-* **Z-axis Bypass & Input Shaper Tweaks** (Located in klippy/extras)
-* **Model Predictive Control (MPC)** (Located in klippy/extras)
-* **Limited CoreXY Kinematics** (Located in klippy/kinematics)
-* **Printer Config Backup** (Located in config)
+🛠 Features & Modules
+Klippy Extensions (klippy/extras)
+MPC (Model Predictive Control): Advanced temperature management for improved thermal stability.
 
-## Added:
-* **Compiled c_helper.so with experimental changes. Should be more efficient (klippy/chelper)
+Z-axis Bypass: Optimized Z-motion handling. (not implimented rn)
+
+Input Shaper Tweaks: Fine-tuned resonance compensation for cleaner prints.
+
+Kinematics (klippy/kinematics)
+Limited CoreXY: Modified kinematics logic for specialized motion control.
+
+Performance Optimizations
+Optimized Python 3.8.20: A custom-compiled Python runtime designed as a drop-in replacement. It is specifically optimized for the Ingenic X2000 (MIPS) architecture, utilizing MSA/Vector instructions to reduce CPU overhead.
+
+Enhanced c_helper.so: Pre-compiled with experimental efficiency improvements for low-level Klippy operations.
+
+📂 Repository Structure
+/config: Stable printer.cfg examples and backups.
+
+/klippy/extras: Custom Python modules for Klipper.
+
+/klippy/chelper: Optimized C components.
+
+/klippy/kinematics: Specialized motion class files.
+
+🔧 Installation Notes
+Dependencies: Ensure you have the Creality Helper Script environment installed.
+
+Fan Pinouts: Repinning fans can be complex depending on your specific board revision. Please refer to the provided .cfg files for validated pin mapping examples.
+
+Manual Integration: Modules like MPC and Limited CoreXY require you to manually add the corresponding sections to your printer.cfg.
