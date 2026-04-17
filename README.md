@@ -37,7 +37,10 @@ Tested with Grumpy/Guppy screen, Helix_screen and stock Creality binaries.
 
 ### Performance Optimizations
 * **Optimized Python 3.8.20:** A custom-compiled Python runtime designed as a drop-in replacement, specifically optimized for the **Ingenic X2000 (MIPS)** architecture, utilizing **MSA/Vector instructions** to increase performance. Tested via symlink override on `/usr/data` partition. If you fully integrate it into the system - here be dragons!
-* **Enhanced `c_helper.so`:** Pre-compiled with experimental efficiency improvements for Klippy operations. Tested, has been in klippy/extras for months, no instability
+* **Enhanced `c_helper.so`:** Pre-compiled with experimental efficiency improvements for Klippy operations. Tested, has been in use for months with no instability.
+
+### 🎮 Bonus: Doom Port
+* **Doom for the Creality K1:** Runs on the printer's display. No sound yet. Known issue: shotgun bug (will fix). Because if it can run Doom, the hardware isn't weak. 😎
 
 ## 📂 Repository Structure
 
@@ -45,6 +48,7 @@ Tested with Grumpy/Guppy screen, Helix_screen and stock Creality binaries.
 * `/klippy/extras`: Custom Python modules for Klipper.
 * `/klippy/chelper`: Optimized C components.
 * `/klippy/kinematics`: Specialized motion class files.
+* `/doom`: Doom port for K1 Max display.
 
 ## 🔧 Installation Notes
 
@@ -59,6 +63,7 @@ Tested with Grumpy/Guppy screen, Helix_screen and stock Creality binaries.
 * **[Kalico Development Team](https://github.com/KalicoCrew/kalico)** - Advanced Klipper features and improvements
 * **[Klipper Development Team](https://github.com/klipper3d/klipper)** - For the exceptional 3D printer firmware
 * **[Helix Screen](https://github.com/prestonbrown/helixscreen)** - Great screen addition using LVGL backend
+* **id Software** - For Doom (obviously)
 * And anyone else whose work contributed to this project!
 
 ## 📜 License
