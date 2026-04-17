@@ -8,6 +8,8 @@ This repository contains custom modifications, optimized binaries, and configura
 
 While these modules are designed to be "drop-in" for printers using the **Creality Helper Script**, some components (specifically Limited CoreXY and MPC) require manual adjustments to your `printer.cfg`.
 
+Tested with Grumpy/Guppy screen, Helix_screen and stock creality binaries.
+
 > [!CAUTION]
 > **Safety First:** Always backup your existing files before applying changes. Modification of fan pinouts or kinematics can lead to hardware damage if not properly verified. It's a good idea to add a wait condition to the Klipper stack on start up, this will give a window where you can ssh in and kill the process if you cause a soft brick. You can also stop klipper from auto-starting and call it manually. 
 
@@ -44,6 +46,7 @@ While these modules are designed to be "drop-in" for printers using the **Creali
 * **[Simple AF Firmware](https://github.com/pellcorp/creality)** - Creality firmware enhancements
 * **[Kalico Development Team](https://github.com/KalicoCrew/kalico)** - Advanced Klipper features and improvements
 * **[Klipper Development Team](https://github.com/klipper3d/klipper)** - For the exceptional 3D printer firmware
+* **[Helix Screen](https://github.com/prestonbrown/helixscreen)** - Great screen addition using LVGL backend
 * And anyone else whose work contributed to this project!
 
 ## 📜 License
