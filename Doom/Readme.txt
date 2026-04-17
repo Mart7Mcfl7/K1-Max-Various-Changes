@@ -20,7 +20,7 @@ If you can help track down these issues, pull requests are welcome!
 
 ### Quick Install
 
-1. **Download files from (https://github.com/Mart7Mcfl7/K1maXburst/Doom)**
+1. **Download files from (https://github.com/Mart7Mcfl7/K1maXburst/tree/main/Doom)**
    - `k1max-doom.tar.gz`
    - `install.sh`
 
