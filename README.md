@@ -1,4 +1,5 @@
 If you use this code in your project, a credit/mention would be appreciated. Please reach out and contribute if you can!
+**Note:** This is a personal working repository. If you're not comfortable with manual Klipper configuration, custom kinematics, and potential hardware troubleshooting, this probably isn't for you.
 
 # K1 Max Custom Enhancements
 
