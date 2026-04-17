@@ -34,7 +34,7 @@ While these modules are designed to be "drop-in" for printers using the **Creali
 
 ## 🔧 Installation Notes
 
-1. **Dependencies:** Ensure you have the [Creality Helper Script](https://github.com/Guilouz/Creality-K1-Series) environment installed.
+1. **Dependencies:** Ensure you have the [Creality Helper Script](https://github.com/Guilouz/Creality-K1-Series) environment installed. Stock systems and Simple AF firmweare will work, but will need modifications to printer config files
 2. **Fan Pinouts:** Repinning fans can be complex depending on your specific board revision. Refer to the provided `.cfg` files for validated pin mapping examples. (mpc requiers a 'shadow fan' in order to link with)
 3. **Manual Integration:** Modules like MPC and Limited CoreXY require you to manually add the corresponding sections to your `printer.cfg`.
 
