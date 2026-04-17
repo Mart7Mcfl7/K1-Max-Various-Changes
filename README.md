@@ -25,7 +25,9 @@ Tested with Grumpy/Guppy screen, Helix_screen and stock Creality binaries.
 ---
 
 > [!CAUTION]
-> **Safety First:** Always backup your existing files before applying changes. Modification of fan pinouts or kinematics can lead to hardware damage if not properly verified. It's a good idea to add a wait condition to the Klipper stack on start up, this will give a window where you can ssh in and kill the process if you cause a soft brick. You can also stop klipper from auto-starting and call it manually. 
+> **Safety First:** Always backup your existing files before applying changes. Modification of fan pinouts or kinematics can lead to hardware damage if not properly verified. It's a good idea to add a wait condition to the Klipper stack on start up, this will give a window where you can ssh in and kill the process if you cause a soft brick. You can also stop klipper from auto-starting and call it manually.
+
+---
 
 ## 🛠 Features & Modules
 
