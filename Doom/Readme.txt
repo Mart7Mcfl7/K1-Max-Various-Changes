@@ -34,7 +34,7 @@ If you can help track down these issues, pull requests are welcome!
 
 4. **Follow the on-screen instructions**
 
-### Manual Installation
+### Manual Installation ###
 
 If you prefer to install manually:
 
@@ -74,12 +74,12 @@ The launcher will:
 - Doom should appear within a few seconds
 
 **"Permission denied" when running installer:**
-```bash
+
 chmod +x /usr/data/install.sh
-```
+
 
 **Want to restore screen software after playing:**
-```bash
+
 # For HelixScreen:
 /usr/data/helixscreen/bin/helix-launcher.sh &
 
@@ -88,13 +88,11 @@ CrealityScreen &
 
 # For GuppyScreen:
 guppyscreen &
-```
+
 
 ## 📝 Uninstall
 
-```bash
 rm -rf /usr/data/Doom
-```
 
 ## 🤝 Contributing
 
