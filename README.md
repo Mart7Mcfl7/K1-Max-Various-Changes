@@ -1,14 +1,26 @@
+# Welcome to the K1maXburst Project
+
+It's known that the K1 series of printers are hard to mod and update since they use proprietary code. The developers created the firmware the easy way - they didn't optimize for the architecture of the chip effectively, causing a common belief that the hardware is weak.
+
+The CPU in the printer is an Ingenic X2000 and has some pretty fancy features if you can enable them (XBurst2, 64-bit FPU, 128-bit registers/pipeline). This means a lot of performance can be gained in math-heavy tasks like input shaping and motion planning.
+
+I've aimed to correct this common misconception by activating these features to gain free performance. It's a thankless, time-consuming task, but hopefully if people realize the effectiveness of these instruction sets, I can get some help.
+
+Thanks for reading.
+
+---
+
 If you use this code in your project, a credit/mention would be appreciated. Please reach out and contribute if you can!
 
 **Note:** This is a personal working repository. If you're not comfortable with manual Klipper configuration, custom kinematics, and potential hardware troubleshooting, this probably isn't for you.
 
-# K1 Max Custom Enhancements
+# K1maXburst - K1 Max Performance Enhancements
 
 This repository contains custom modifications, optimized binaries, and configuration backups specifically tailored for the Creality K1 Max. 
 
 While these modules are designed to be "drop-in" for printers using the **Creality Helper Script**, some components (specifically Limited CoreXY and MPC) require manual adjustments to your `printer.cfg`.
 
-Tested with Grumpy/Guppy screen, Helix_screen and stock creality binaries.
+Tested with Grumpy/Guppy screen, Helix_screen and stock Creality binaries.
 
 > [!CAUTION]
 > **Safety First:** Always backup your existing files before applying changes. Modification of fan pinouts or kinematics can lead to hardware damage if not properly verified. It's a good idea to add a wait condition to the Klipper stack on start up, this will give a window where you can ssh in and kill the process if you cause a soft brick. You can also stop klipper from auto-starting and call it manually. 
@@ -17,7 +29,7 @@ Tested with Grumpy/Guppy screen, Helix_screen and stock creality binaries.
 
 ### Klippy Extensions (`klippy/extras`)
 * **MPC (Model Predictive Control):** Advanced temperature management for improved thermal stability.
-* **Z-axis:** Optimized Z-motion handling - Z-axis has basis for input shaping - needs external adxl. Possible code for height restrictive speed adjustment, not checked could still be on build machine.
+* **Z-axis:** Optimized Z-motion handling - Z-axis has basis for input shaping - needs external ADXL. Possible code for height-restrictive speed adjustment, not checked could still be on build machine.
 * **Input Shaper Tweaks:** Fine-tuned resonance compensation - Sweeping motion and changes to pulse generator.
 
 ### Kinematics (`klippy/kinematics`)
