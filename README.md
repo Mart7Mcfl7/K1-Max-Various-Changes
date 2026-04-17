@@ -22,7 +22,7 @@ While these modules are designed to be "drop-in" for printers using the **Creali
 * **Limited CoreXY:** Modified kinematics logic for specialized motion control.
 
 ### Performance Optimizations
-* **Optimized Python 3.8.20:** A custom-compiled Python runtime designed as a drop-in replacement, specifically optimized for the **Ingenic X2000 (MIPS)** architecture, utilizing **MSA/Vector instructions** to increase performance.
+* **Optimized Python 3.8.20:** A custom-compiled Python runtime designed as a drop-in replacement, specifically optimized for the **Ingenic X2000 (MIPS)** architecture, utilizing **MSA/Vector instructions** to increase performance. Tested via symlink override on `/usr/data` partition. If you fully integrate it into the system - here be dragons!
 * **Enhanced `c_helper.so`:** Pre-compiled with experimental efficiency improvements for low-level Klippy operations.
 
 ## 📂 Repository Structure
@@ -35,7 +35,7 @@ While these modules are designed to be "drop-in" for printers using the **Creali
 ## 🔧 Installation Notes
 
 1. **Dependencies:** Ensure you have the [Creality Helper Script](https://github.com/Guilouz/Creality-K1-Series) environment installed.
-2. **Fan Pinouts:** Repinning fans can be complex depending on your specific board revision. Refer to the provided `.cfg` files for validated pin mapping examples.
+2. **Fan Pinouts:** Repinning fans can be complex depending on your specific board revision. Refer to the provided `.cfg` files for validated pin mapping examples. (mpc requiers a 'shadow fan' in order to link with)
 3. **Manual Integration:** Modules like MPC and Limited CoreXY require you to manually add the corresponding sections to your `printer.cfg`.
 
 ## 📜 License
