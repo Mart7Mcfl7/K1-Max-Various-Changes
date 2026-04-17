@@ -16,7 +16,7 @@ While these modules are designed to be "drop-in" for printers using the **Creali
 ### Klippy Extensions (`klippy/extras`)
 * **MPC (Model Predictive Control):** Advanced temperature management for improved thermal stability.
 * **Z-axis Bypass:** Optimized Z-motion handling.
-* **Input Shaper Tweaks:** Fine-tuned resonance compensation for cleaner prints.
+* **Input Shaper Tweaks:** Fine-tuned resonance compensation for cleaner prints - Sweeping motion and changes to pulse generator
 
 ### Kinematics (`klippy/kinematics`)
 * **Limited CoreXY:** Modified kinematics logic for specialized motion control.
