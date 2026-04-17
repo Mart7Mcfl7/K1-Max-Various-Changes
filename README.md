@@ -1,4 +1,5 @@
 If you use this code in your project, a credit/mention would be appreciated. Please reach out and contribute if you can!
+
 **Note:** This is a personal working repository. If you're not comfortable with manual Klipper configuration, custom kinematics, and potential hardware troubleshooting, this probably isn't for you.
 
 # K1 Max Custom Enhancements
@@ -21,7 +22,7 @@ While these modules are designed to be "drop-in" for printers using the **Creali
 * **Limited CoreXY:** Modified kinematics logic for specialized motion control.
 
 ### Performance Optimizations
-* **Optimized Python 3.8.20:** A custom-compiled Python runtime designed as a drop-in replacement, specifically optimized for the **Ingenic X2000 (MIPS)** architecture, utilizing **MSA/Vector instructions** to reduce CPU overhead.
+* **Optimized Python 3.8.20:** A custom-compiled Python runtime designed as a drop-in replacement, specifically optimized for the **Ingenic X2000 (MIPS)** architecture, utilizing **MSA/Vector instructions** to increase performance.
 * **Enhanced `c_helper.so`:** Pre-compiled with experimental efficiency improvements for low-level Klippy operations.
 
 ## 📂 Repository Structure
@@ -39,4 +40,4 @@ While these modules are designed to be "drop-in" for printers using the **Creali
 
 ## 📜 License
 
-[MIT]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
