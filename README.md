@@ -4,13 +4,13 @@ It's known that the K1 series of printers are hard to mod and update since they 
 
 The CPU in the printer is an Ingenic X2000 and has some pretty fancy features if you can enable them (XBurst2 core, 64-bit FPU, 128-bit MSA vector instructions). This means a lot of performance can be gained in math-heavy tasks like input shaping and motion planning.
 
-I've aimed to correct this common misconception by activating these features to gain free performance. It's a thankless, time-consuming task, but hopefully if people realize the effectiveness of these instruction sets, I can get some help.
+I've aimed to correct this common misconception by activating these features to gain free performance. It's a time-consuming task, but hopefully if people realize the effectiveness of these instruction sets, I can get some help.
 
 Thanks for reading.
 
----
+If you use anything here, a credit/mention would be appreciated. Please reach out and contribute if you can!
 
-If you use this code in your project, a credit/mention would be appreciated. Please reach out and contribute if you can!
+---
 
 **Note:** This is a personal working repository. If you're not comfortable with manual Klipper configuration, custom kinematics, and potential hardware troubleshooting, this probably isn't for you.
 
@@ -21,6 +21,8 @@ This repository contains custom modifications, optimized binaries, and configura
 While these modules are designed to be "drop-in" for printers using the **Creality Helper Script**, some components (specifically Limited CoreXY and MPC) require manual adjustments to your `printer.cfg`.
 
 Tested with Grumpy/Guppy screen, Helix_screen and stock Creality binaries.
+
+---
 
 > [!CAUTION]
 > **Safety First:** Always backup your existing files before applying changes. Modification of fan pinouts or kinematics can lead to hardware damage if not properly verified. It's a good idea to add a wait condition to the Klipper stack on start up, this will give a window where you can ssh in and kill the process if you cause a soft brick. You can also stop klipper from auto-starting and call it manually. 
