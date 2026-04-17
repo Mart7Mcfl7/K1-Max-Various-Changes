@@ -13,6 +13,7 @@ Classic Doom compiled for the Ingenic X2000 (XBurst + MSA) running on your K1 Ma
 
 - **No audio** - Silent version only - Audio version requiers external device (for now)
 - **Shotgun freeze** - Picking up the shotgun currently freezes the game (investigating)
+- **Had trouble with the starting location, used warp to move to a safer place - could be issue with clipping
 
 If you can help track down these issues, pull requests are welcome!
 
@@ -119,4 +120,3 @@ Runs surprisingly well on the X2000!Framerate is playable for the classic Doom e
 ---
 
 **Enjoy fragging demons on your 3D printer! 🔥**
-EOF
