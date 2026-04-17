@@ -37,7 +37,7 @@ Tested with Grumpy/Guppy screen, Helix_screen and stock Creality binaries.
 
 ### Performance Optimizations
 * **Optimized Python 3.8.20:** A custom-compiled Python runtime designed as a drop-in replacement, specifically optimized for the **Ingenic X2000 (MIPS)** architecture, utilizing **MSA/Vector instructions** to increase performance. Tested via symlink override on `/usr/data` partition. If you fully integrate it into the system - here be dragons!
-* **Enhanced `c_helper.so`:** Pre-compiled with experimental efficiency improvements for Klippy operations.
+* **Enhanced `c_helper.so`:** Pre-compiled with experimental efficiency improvements for Klippy operations. Tested, has been in klippy/extras for months, no instability
 
 ## 📂 Repository Structure
 
