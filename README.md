@@ -38,6 +38,14 @@ While these modules are designed to be "drop-in" for printers using the **Creali
 2. **Fan Pinouts:** Repinning fans can be complex depending on your specific board revision. Refer to the provided `.cfg` files for validated pin mapping examples. (mpc requiers a 'shadow fan' in order to link with)
 3. **Manual Integration:** Modules like MPC and Limited CoreXY require you to manually add the corresponding sections to your `printer.cfg`.
 
+## 🙏 Acknowledgments
+
+* **[Creality Helper Script](https://github.com/Guilouz/Creality-K1-Series)** - Foundation for K1 Series modifications
+* **[Simple AF Firmware](https://github.com/pellcorp/creality)** - Creality firmware enhancements
+* **[Kalico Development Team](https://github.com/KalicoCrew/kalico)** - Advanced Klipper features and improvements
+* **[Klipper Development Team](https://github.com/klipper3d/klipper)** - For the exceptional 3D printer firmware
+* And anyone else whose work contributed to this project!
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
