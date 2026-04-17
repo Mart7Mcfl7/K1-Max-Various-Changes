@@ -65,7 +65,7 @@ TODO:
 
 * **compile scipy**, feel generic xcompile version isnt great without vector math.
 * **Explore running custom Linux distro from usb, bypassing creality (minimise brick risk)
-* **Shoehorn better shapers in, Kalico Bleeding Edge shapers confirmed working, but again needs vector optimisation
+* **Shoehorn better shapers in, Kalico Bleeding Edge shapers confirmed working, but again needs vector optimisation (scalar FPU too slow)
 ---
 
 ## 🙏 Acknowledgments
