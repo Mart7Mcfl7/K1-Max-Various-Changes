@@ -38,4 +38,4 @@ While these modules are designed to be "drop-in" for printers using the **Creali
 
 ## 📜 License
 
-[Add your chosen license here - e.g., MIT, GPL-3.0, etc.]
+[MIT]
