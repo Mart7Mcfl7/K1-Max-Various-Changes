@@ -1,3 +1,5 @@
+If you use this code in your project, a credit/mention would be appreciated. Please reach out and contribute if you can!
+
 # K1 Max Custom Enhancements
 
 This repository contains custom modifications, optimized binaries, and configuration backups specifically tailored for the Creality K1 Max. 
@@ -18,16 +20,22 @@ While these modules are designed to be "drop-in" for printers using the **Creali
 * **Limited CoreXY:** Modified kinematics logic for specialized motion control.
 
 ### Performance Optimizations
-* **Optimized Python 3.8.20:** A custom-compiled Python runtime designed as a drop-in replacement. It is specifically optimized for the **Ingenic X2000 (MIPS)** architecture, utilizing **MSA/Vector instructions** to reduce CPU overhead.
+* **Optimized Python 3.8.20:** A custom-compiled Python runtime designed as a drop-in replacement, specifically optimized for the **Ingenic X2000 (MIPS)** architecture, utilizing **MSA/Vector instructions** to reduce CPU overhead.
 * **Enhanced `c_helper.so`:** Pre-compiled with experimental efficiency improvements for low-level Klippy operations.
 
 ## 📂 Repository Structure
+
 * `/config`: Stable `printer.cfg` examples and backups.
 * `/klippy/extras`: Custom Python modules for Klipper.
 * `/klippy/chelper`: Optimized C components.
 * `/klippy/kinematics`: Specialized motion class files.
 
 ## 🔧 Installation Notes
+
 1. **Dependencies:** Ensure you have the [Creality Helper Script](https://github.com/Guilouz/Creality-K1-Series) environment installed.
-2. **Fan Pinouts:** Repinning fans can be complex depending on your specific board revision. Please refer to the provided `.cfg` files for validated pin mapping examples.
+2. **Fan Pinouts:** Repinning fans can be complex depending on your specific board revision. Refer to the provided `.cfg` files for validated pin mapping examples.
 3. **Manual Integration:** Modules like MPC and Limited CoreXY require you to manually add the corresponding sections to your `printer.cfg`.
+
+## 📜 License
+
+[Add your chosen license here - e.g., MIT, GPL-3.0, etc.]
