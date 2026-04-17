@@ -60,6 +60,13 @@ Tested with Grumpy/Guppy screen, Helix_screen and stock Creality binaries.
 2. **Fan Pinouts:** Repinning fans can be complex depending on your specific board revision. Refer to the provided `.cfg` files for validated pin mapping examples. (MPC requires a 'shadow fan' in order to link with)
 3. **Manual Integration:** Modules like MPC and Limited CoreXY require you to manually add the corresponding sections to your `printer.cfg`.
 
+---
+TODO: 
+
+* **compile scipy, feel generic xcompile version isnt great without vector math.
+* **Explore running custom Linux distro from usb, bypassing creality (minimise brick risk)
+---
+
 ## 🙏 Acknowledgments
 
 * **[Creality Helper Script](https://github.com/Guilouz/Creality-K1-Series)** - Foundation for K1 Series modifications
