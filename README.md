@@ -12,7 +12,10 @@ If you use anything here, a credit/mention would be appreciated. Please reach ou
 
 ---
 
-**Note:** This is a personal working repository. If you're not comfortable with manual Klipper configuration, custom kinematics,potential hardware troubleshooting and mistakes, this probably isn't for you. This repository helps me keep things orginised as my build enviroment is a mess and sometimes things get nuked by accident. This is not all my work, this is dump from my modified printer, I hope I've given the correct acknowledgments in the right places (if not, reach out and I'll fix it)
+
+**Note:** This is a personal working repository. If you're not comfortable with manual Klipper configuration, custom kinematics, potential hardware troubleshooting and mistakes, this probably isn't for you. 
+This repository helps me keep things organised as my build environment is a mess and sometimes things get nuked by accident. This is not all my work, this is a dump from my modified printer. I hope I've given the correct acknowledgments in the right places (if not, reach out and I'll fix it).
+
 
 # K1maXburst - K1 Max Performance Enhancements
 
