@@ -4,7 +4,7 @@ It's known that the K1 series of printers are hard to mod and update since they 
 
 The CPU in the printer is an Ingenic X2000 and has some pretty fancy features if you can enable them (XBurst2 core, FPU, MSA vector instructions). This means a lot of performance can be gained in math-heavy tasks like input shaping and motion planning.
 
-I've aimed to correct this common misconception by activating these features to gain free performance. It's a time-consuming task, but hopefully if people realize the effectiveness of these instruction sets, I can get some help.
+I've tried to correct this common misconception by activating these features to gain performance. It's a time-consuming task, but hopefully if people realize the effectiveness of these instruction sets, I can get some help, just like other projects have helped me add things to the printer.
 
 Thanks for reading.
 
