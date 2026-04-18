@@ -4,15 +4,18 @@ It's known that the K1 series of printers are hard to mod and update since they 
 
 The CPU in the printer is an Ingenic X2000 and has some pretty fancy features if you can enable them (XBurst2 core, FPU, MSA vector instructions). This means a lot of performance can be gained in math-heavy tasks like input shaping and motion planning.
 
-I've aimed to correct this common misconception by activating these features to gain free performance. It's a time-consuming task, but hopefully if people realize the effectiveness of these instruction sets, I can get some help.
+I've tried to correct this common misconception by activating these features to gain performance. It's a time-consuming task, but hopefully if people realize the effectiveness of these instruction sets, I can get some help, just like other projects have helped me add things to the printer.
 
 Thanks for reading.
 
-If you use anything here, a credit/mention would be appreciated. Please reach out and contribute if you can!
+If you use anything here, a credit/mention would be appreciated. Please reach out and contribute if you can
 
 ---
 
-**Note:** This is a personal working repository. If you're not comfortable with manual Klipper configuration, custom kinematics, and potential hardware troubleshooting, this probably isn't for you. This repository helps me keep things organised as my build environment is a mess and sometimes things get nuked by accident.
+
+**Note:** This is a personal working repository. If you're not comfortable with manual Klipper configuration, custom kinematics, potential hardware troubleshooting and mistakes, this probably isn't for you. 
+This repository helps me keep things organised as my build environment is a mess and sometimes things get nuked by accident. This is not all my work, this is a dump from my modified printer. I hope I've given the correct acknowledgments in the right places (if not, reach out and I'll fix it).
+
 
 # K1maXburst - K1 Max Performance Enhancements
 
@@ -63,9 +66,10 @@ Tested with Grumpy/Guppy screen, Helix_screen and stock Creality binaries.
 ---
 TODO: 
 
-* **compile scipy**, feel generic xcompile version isnt great without vector math.
-* **Explore running custom Linux distro from usb, bypassing creality (minimise brick risk)
-* **Shoehorn better shapers in, Kalico Bleeding Edge shapers confirmed working, but again needs vector optimisation (scalar FPU too slow)
+*   compile scipy, feel generic xcompile version isnt great without vector math.
+*   Explore running custom Linux distro from usb, bypassing creality (minimise brick risk)
+*   Shoehorn better shapers in, Kalico Bleeding Edge shapers confirmed working, but again needs vector optimisation (scalar FPU too slow)
+*   Make files repoduceable and provide Toolchain settings and enviroment
 ---
 
 ## 🙏 Acknowledgments
@@ -80,4 +84,4 @@ TODO:
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPLv3  License - see the [LICENSE](LICENSE) file for details.
