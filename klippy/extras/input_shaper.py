@@ -63,8 +63,8 @@ class AxisInputShaper:
         self.n, self.A, self.T = self.params.get_shaper()
         return (old_n, old_A, old_T) != (self.n, self.A, self.T)
     def set_shaper_kinematics(self, sk):
-        # FUNDAMENTAL FIX: The C-library 'chelper' only supports 'x' and 'y'.
-        # We only pass those through. 'z' shaping parameters are managed in Python.
+        # chelper only supports x and y
+        # pass those through. z shaping parameters are managed in Python.
         if self.axis not in ['x', 'y']:
             return True 
         ffi_main, ffi_lib = chelper.get_ffi()
