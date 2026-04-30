@@ -66,7 +66,7 @@ Tested with Grumpy/Guppy screen, Helix_screen and stock Creality binaries.
 ---
 TODO: 
 
-*   compile scipy, feel generic xcompile version isnt great without vector math.
+*   compile scipy, feel generic xcompile version isnt great without vector math. -done (the whole python stack)
 *   Explore running custom Linux distro from usb, bypassing creality (minimise brick risk)
 *   Shoehorn better shapers in, Kalico Bleeding Edge shapers confirmed working, but again needs vector optimisation (scalar FPU too slow)
 *   Make files repoduceable and provide Toolchain settings and enviroment
