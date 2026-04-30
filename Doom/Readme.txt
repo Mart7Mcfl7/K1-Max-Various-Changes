@@ -1,3 +1,6 @@
+Updated with doomv2 - shotgunfix
+
+
 Classic Doom compiled for the Ingenic X2000 (XBurst + MSA) running on your K1 Max 3D printer!
 
 ## 🎮 Features
